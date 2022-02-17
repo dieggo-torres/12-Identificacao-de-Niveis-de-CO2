@@ -38,7 +38,10 @@ limite = 450
 situacao = ""
 
 for estado, lista in niveis_co2.items():
+    # Calcula o nível médio de CO2
     nivel_medio_co2 = sum(lista) / len(lista)
+    
+    # Verifica se o nível médio de CO2 é maior que o limite de segurança
     if nivel_medio_co2 > limite:
         situacao = "ALERTA"
     else:
