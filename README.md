@@ -1,4 +1,4 @@
-# Identificação de Níveis de CO2
+# [Intermediário] Identificação de Níveis de CO2
 Este programa recebe um dicionário no qual cada uma de suas chaves representa um estado brasileiro. Os valores desse dicionário são listas, as quais
 armazenam cinco valores cada com as leituras de cinco sensores de CO2.
 
